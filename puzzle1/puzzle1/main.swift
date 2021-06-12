@@ -18,7 +18,7 @@ print("Hello, World!")
        Input: [10, 11, 10, 12, 9, 11]
        Output: 2
  */
-func sockMerchant(ar: [Int]) -> Int {
+func findTotalPair(ar: [Int]) -> Int {
     // Write your code here
     var identicalValues: [Int] = []
     var pairCount: Int = 0
@@ -36,5 +36,5 @@ func sockMerchant(ar: [Int]) -> Int {
     return pairCount
 }
 
-var pair = sockMerchant( ar: [10, 20, 20, 10, 10, 30, 50, 10, 20])
+var pair = findTotalPair( ar: [10, 20, 20, 10, 10, 30, 50, 10, 20])
 print(pair)
