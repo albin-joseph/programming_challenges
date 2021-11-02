@@ -35,4 +35,19 @@ An array contains a number of strings, it may repeat. Write an algorithm to find
 
   <a name="anchor"><a href="https://github.com/albin-joseph/programming_challenges/tree/main/puzzle2">refer the code</a>
 </details>
+  
+<details> 
+<summary>Find the unique and common item from two array of keyvalue pairs</summary> 
+An array contains dictionries, dictionary contains two keys name and id. But at the time of copmarison yiu have to consider the name only<p>
+  
+- expectation:
+  
+  ``` swift
+    func getMinimumDistance(_ strArrlet a ay: [String], _ firstString: String, _ secondString: String) -> Int
+  ```
+  - input: let a = [["id":"1","name":"Albin"],["id":"2","name":"Anu"],["id":"3","name":"Arsha"]], let b = [["id":"1","name":"Albin"],["id":"2","name":"Anu"]]
+  - output: common: [["id": "1", "name": "Albin"], ["name": "Anu", "id": "2"]], unique:[["id": "3", "name": "Arsha"]]
+
+  <a name="anchor"><a href="https://github.com/albin-joseph/programming_challenges/tree/main/puzzle4">refer the code</a>
+</details>
 
