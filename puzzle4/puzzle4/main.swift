@@ -26,6 +26,19 @@ func unique(_ a:[[String:String]], _ b:[[String:String]]) -> () {
     }
     print(common)
     print(unique)
+    
+   
+    
+    let numbers = ["1", "2", "Fish"]
+    
+    let integers = numbers.compactMap ({ Int($0) })
+    let integers1 = numbers.flatMap { Int($0) }
+    let integers2 = numbers.map{ Int($0) }
+    
+    print(integers)
+    print(integers1)
+    print(integers2)
+    
 }
 
 let a = [["id":"1","name":"Albin"],["id":"2","name":"Anu"],["id":"3","name":"Arsha"]]
