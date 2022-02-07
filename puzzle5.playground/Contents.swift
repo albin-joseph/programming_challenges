@@ -23,3 +23,4 @@ func findDuplicateValues(_ array: [Int]) -> [Int] {
 }
 
 print(findDuplicateValues(intArray))
+print("Hello")
